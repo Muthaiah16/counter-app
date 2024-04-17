@@ -1,0 +1,41 @@
+*{
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(201, 201, 177);
+}
+
+.heading{
+  margin: 40px 40px ;
+  align-items: center; 
+  color: blueviolet;
+  font-size: 40px;
+  padding: 20px; 
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item1{
+  display: grid;
+  grid-template-columns: 80px auto 80px;
+  grid-column-gap: 40px;
+  grid-template-rows: 1fr;
+}
+
+.count{
+  grid-column: 2;
+  grid-row: 1;
+  padding: 20px;
+  color: blue;
+  font-size: 30px;
+}
+
